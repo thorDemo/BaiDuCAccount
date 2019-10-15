@@ -1,3 +1,4 @@
+# -*-coding:utf-8-*-
 from mylib.baidu_add_site import add_random_site
 from mylib.baidu_delete_site import delete_all_site
 import time
@@ -14,7 +15,7 @@ for x in range(1000, 3700, 10):
             print('添加成功')
             break
         # print(result)
-        # time.sleep(1)
+        time.sleep(6)
 # print('=')
 # result = delete_all_site('www.aienao.com', cookie)
 # print(result)

@@ -1,3 +1,4 @@
+# -*-coding:utf-8-*-
 import requests
 from random import randint, sample
 from mylib.databases import BaiDuAccountCookies
